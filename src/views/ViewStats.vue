@@ -4,7 +4,7 @@
       <thead>
         <tr>
           <th>Proprietà</th>
-          <th>Quantità</th>
+          <th>#</th>
         </tr>
       </thead>
       <tbody>
@@ -13,7 +13,7 @@
           <td>{{ storeNotes.totalNotesCount }}</td>
         </tr>
         <tr>
-          <td>Totale caratteri (da tutte le note)</td>
+          <td>Totale lettere (da tutte le note)</td>
           <td>{{ storeNotes.totalCharactersCount }}</td>
         </tr>
       </tbody>

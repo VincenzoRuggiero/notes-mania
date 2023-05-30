@@ -7,17 +7,17 @@ export const useStoreNotes = defineStore("storeNotes", {
         {
           id: "id1",
           content:
-            "sed est error fugit possimus etsed est error fugit possimus etsed est error fugit possimus et",
+            "Ciao curiosone/a! 😜 Questo è un semplice sito responsive scritto in Vue e Pinia 🍍, usando Bulma CSS per la parte grafica!",
         },
         {
           id: "id2",
           content:
-            "Ipsum molestiae possimus saepe laboriosam quis. Ex labore eaque dolor sequi laboriosam ab aut distinctio ea. Laborum ut ut nihil rerum.",
+            "Qui potrai aggiungerne di nuove, modificarle e cancellarle quando non servono più",
         },
         {
           id: "id3",
           content:
-            "Voluptatem qui dolorem nam ut culpa ea ipsum ipsa nobis quisquam enim ut. In ducimus eveniet accusantium. Ex nulla sunt voluptas. Mollitia dolor minus perferendis rerum illo autem libero recusandae laborum aspernatur modi. Voluptatem impedit sint quo. Alias mollitia et id ea et ea doloribus molestiae ut ducimus voluptas velit eos inventore. Aliquid reiciendis omnis rerum nam suscipit expedita aliquam illo. Possimus odio reprehenderit itaque corrupti molestias ut non a consequatur excepturi perspiciatis.",
+            "Se sei amante dei numeri puoi vedere di quante lettere è composta ciascuna nota oppure puoi andare nella pagina delle statistiche e vedere il totale fra note e lettere presenti",
         },
       ],
     };
