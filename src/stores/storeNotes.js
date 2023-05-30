@@ -7,7 +7,7 @@ export const useStoreNotes = defineStore("storeNotes", {
         {
           id: "id1",
           content:
-            "Ciao curiosone/a! 😜 Questo è un semplice sito responsive scritto in Vue e Pinia 🍍, usando Bulma CSS per la parte grafica!",
+            "Ciao curiosone/a! 😊 Questo è un semplice sito responsive scritto in Vue e Pinia 🍍, usando Bulma CSS per la parte grafica!",
         },
         {
           id: "id2",
