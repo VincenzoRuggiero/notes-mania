@@ -3,17 +3,17 @@
     <table class="table is-fullwidth">
       <thead>
         <tr>
-          <th>Stat</th>
-          <th>Value</th>
+          <th>Proprietà</th>
+          <th>Quantità</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>Number of Notes</td>
+          <td>Numero di note salvate</td>
           <td>{{ storeNotes.totalNotesCount }}</td>
         </tr>
         <tr>
-          <td>Number of Characters (from all notes)</td>
+          <td>Totale caratteri (da tutte le note)</td>
           <td>{{ storeNotes.totalCharactersCount }}</td>
         </tr>
       </tbody>

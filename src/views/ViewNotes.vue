@@ -3,13 +3,13 @@
     <AddEditNote
       v-model="newNote"
       ref="addEditNoteRef"
-      placeholder="Add a new note">
+      placeholder="Scrivi il contenuto">
       <template #buttons>
         <button
           @click.prevent="addNote"
           :disabled="!newNote"
           class="button is-link has-background-success">
-          Add New Note
+          Aggiungi
         </button>
       </template>
     </AddEditNote>

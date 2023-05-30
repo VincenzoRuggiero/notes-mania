@@ -35,7 +35,7 @@ const props = defineProps({
   },
   placeholder: {
     type: String,
-    default: "Type something...",
+    default: "Scrivi qualcosa...",
   },
   label: {
     type: String,

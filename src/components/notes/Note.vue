@@ -13,13 +13,13 @@
         :to="`/editNote/${note.id}`"
         class="card-footer-item"
         @click=""
-        >Edit</RouterLink
+        >Modifica</RouterLink
       >
       <a
         href="#"
         class="card-footer-item"
         @click.prevent="storeNotes.deleteNote(note.id)"
-        >Delete</a
+        >Elimina</a
       >
     </footer>
   </div>
@@ -44,7 +44,7 @@ const props = defineProps({
 /* Character length */
 const characterLength = computed(() => {
   let length = props.note.content.length;
-  let description = length > 1 ? "characters" : "character";
+  let description = length > 1 ? "lettere" : "lettera";
   return `${length} ${description}`;
 });
 </script>

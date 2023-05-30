@@ -4,17 +4,17 @@
       ref="addEditNoteRef"
       v-model="noteContent"
       bgColor="link"
-      placeholder="Edit Note"
-      label="Edit note">
+      placeholder="Modifica il contenuto"
+      label="Modifica la nota">
       <template #buttons>
         <button @click="$router.push('/')" class="button is-link is-light mr-2">
-          Cancel
+          Annulla
         </button>
         <button
           @click="handleSaveClicked"
           class="button is-link has-background-link"
           :disabled="!noteContent">
-          Save Note
+          Salva modifche
         </button>
       </template>
     </AddEditNote>
